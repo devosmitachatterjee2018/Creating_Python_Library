@@ -12,8 +12,8 @@
 
 ## Running Python Scripts in Power BI Desktop
 - packaging_tutorial/
-    --src/
-        - example_package_YOUR_USERNAME_HERE/
-        ├── __init__.py
-        └── example.py
+- src/
+- example_package_YOUR_USERNAME_HERE/
+    --__init__.py
+    --example.py
 
