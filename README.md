@@ -16,11 +16,13 @@ python3 -m pip install --upgrade pip
     - **example.py**
   - **tests/**
 
-## Content: example.py
+## Content of the project
+
+### example.py
 def add_one(number):
     return number + 1
     
-## Content: pyproject.toml  
+### pyproject.toml  
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -44,12 +46,12 @@ classifiers = [
 "Homepage" = "https://github.com/pypa/sampleproject"
 "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
 
-## Content: README.md
+### README.md
 This is a simple example package. You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to write your content.
 
-## Content: LICENSE
+### LICENSE
 - A license can be chosen from https://choosealicense.com/.
 - The MIT license.
 Copyright (c) 2018 The Python Packaging Authority
