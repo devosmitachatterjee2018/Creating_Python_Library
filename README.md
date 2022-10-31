@@ -3,7 +3,7 @@
 ## Installing the latest version of pip
 - Run in Developer PowerShell.
 
-python3 -m pip install --upgrade pip
+```python3 -m pip install --upgrade pip```
 
 ## Creating a simple project
 - The structure of the project should be as follows.
@@ -27,6 +27,7 @@ def add_one(number):
 ```
     
 ### pyproject.toml  
+```
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -49,6 +50,7 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/pypa/sampleproject"
 "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+```
 
 ### README.md
 This is a simple example package. You can use
@@ -58,6 +60,8 @@ to write your content.
 ### LICENSE
 - A license can be chosen from https://choosealicense.com/.
 - The MIT license.
+
+```
 Copyright (c) 2018 The Python Packaging Authority
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -77,25 +81,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 ## Generating distribution packages
 - Run in Developer PowerShell.
-python3 -m pip install --upgrade build
-python3 -m build
+```python3 -m pip install --upgrade build```
+```python3 -m build```
 
 ## Uploading the package to the Python Package Index
 - Create an account with username and password via  https://test.pypi.org/account/register/.
 - Run in Developer PowerShell.
-python3 -m pip install --upgrade twine
-python3 -m twine upload --repository testpypi dist/*
+```python3 -m pip install --upgrade twine```
+```python3 -m twine upload --repository testpypi dist/*```
 - Enter username and password in Developer PowerShell.
 - View the uploaded package on TestPyPI: https://test.pypi.org/manage/projects/example_package_devosmita.
 
 ## Installing the package
 - Run in Developer PowerShell.
-python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-devosmita
+```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-devosmita```
 - Or, Go to View -> Other windows -> Python Environments -> Add Environments -> Anaconda 2020.11 -> Packages(PyPI) -> example-package-devosmita (0.01) -> pip install exa
 
 ## Running the package
-from example_package_YOUR_USERNAME_HERE import example
-example.add_one(2)
+```from example_package_YOUR_USERNAME_HERE import example```
+```example.add_one(2)```
