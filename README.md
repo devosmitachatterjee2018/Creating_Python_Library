@@ -12,7 +12,7 @@ python3 -m pip install --upgrade pip
     - **pyproject.toml**
     - **README.md**
     - **src/**
-      - **example_package_devosmita/**
+      - **anomaly_devosmita/**
         - **_init_.py**
         - **example.py**
     - **tests/**
