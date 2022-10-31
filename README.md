@@ -85,7 +85,9 @@ SOFTWARE.
 
 ## Generating distribution packages
 - Run in Developer PowerShell.
+
 ```python3 -m pip install --upgrade build```
+
 ```python3 -m build```
 
 ## Uploading the package to the Python Package Index
