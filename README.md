@@ -92,7 +92,7 @@ SOFTWARE.
 - Create an account with username and password via  https://test.pypi.org/account/register/.
 - Run in Developer PowerShell.
 ```python3 -m pip install --upgrade twine```
-```python3 -m twine upload --repository testpypi dist/*```
+```python3 -m twine upload --repository testpypi dist/*``` or ```python3 -m twine upload dist/*```
 - Enter username and password in Developer PowerShell.
 - View the uploaded package on TestPyPI: https://test.pypi.org/manage/projects/example_package_devosmita.
 
