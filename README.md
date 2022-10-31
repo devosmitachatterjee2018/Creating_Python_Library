@@ -2,6 +2,7 @@
 
 ## Installing the latest version of pip
 - Run in Developer PowerShell.
+
 python3 -m pip install --upgrade pip
 
 ## Creating a simple project
