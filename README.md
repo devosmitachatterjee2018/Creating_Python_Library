@@ -33,7 +33,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "example_package_devosmita"
+name = "anomaly_devosmita"
 version = "0.0.1"
 authors = [
   { name="Devosmita Chatterjee", email="chatterjeedevosmita267@gmail.com" },
@@ -53,7 +53,7 @@ classifiers = [
 ```
 
 ### README.md
-This is a simple example package. You can use
+This is an example package. You can use
 [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to write your content.
 
@@ -89,18 +89,20 @@ SOFTWARE.
 ```python3 -m build```
 
 ## Uploading the package to the Python Package Index
-- Create an account with username and password via  https://test.pypi.org/account/register/.
+- Create an account with username and password via  https://test.pypi.org/account/register/ or https://pypi.org/account/register.
 - Run in Developer PowerShell.
 ```python3 -m pip install --upgrade twine```
 ```python3 -m twine upload --repository testpypi dist/*``` or ```python3 -m twine upload dist/*```
 - Enter username and password in Developer PowerShell.
-- View the uploaded package on TestPyPI: https://test.pypi.org/manage/projects/example_package_devosmita.
+- View the uploaded package on TestPyPI or PyPI: https://test.pypi.org/manage/projects/anomaly_devosmita or https://pypi.org/manage/projects/anomaly_devosmita.
 
 ## Installing the package
 - Run in Developer PowerShell.
-```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-devosmita```
+```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps anomaly_devosmita```
+or
+```python3 -m pip install anomaly_devosmita```
 - Or, Go to View -> Other windows -> Python Environments -> Add Environments -> Anaconda 2020.11 -> Packages(PyPI) -> example-package-devosmita (0.01) -> pip install exa
 
 ## Running the package
-```from example_package_YOUR_USERNAME_HERE import example```
+```from anomaly_devosmita import example```
 ```example.add_one(2)```
