@@ -20,6 +20,7 @@ python3 -m pip install --upgrade pip
 ## Content of the project
 
 ### example.py
+
 def add_one(number):
     
     return(number + 1)
