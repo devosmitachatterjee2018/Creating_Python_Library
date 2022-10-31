@@ -13,7 +13,7 @@ python3 -m pip install --upgrade pip
     - **README.md**
     - **src/**
       - **anomaly_devosmita/**
-        - **__init__.py**
+        - **\__init\__.py**
         - **example.py**
     - **tests/**
 
