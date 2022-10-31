@@ -93,18 +93,25 @@ SOFTWARE.
 ## Uploading the package to the Python Package Index
 - Create an account with username and password via  https://test.pypi.org/account/register/ or https://pypi.org/account/register.
 - Run in Developer PowerShell.
+
 ```python3 -m pip install --upgrade twine```
+
 ```python3 -m twine upload --repository testpypi dist/*``` or ```python3 -m twine upload dist/*```
 - Enter username and password in Developer PowerShell.
 - View the uploaded package on TestPyPI or PyPI: https://test.pypi.org/manage/projects/anomaly_devosmita or https://pypi.org/manage/projects/anomaly_devosmita.
 
 ## Installing the package
 - Run in Developer PowerShell.
+
 ```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps anomaly_devosmita```
 or
+
 ```python3 -m pip install anomaly_devosmita```
+
 - Or, Go to View -> Other windows -> Python Environments -> Add Environments -> Anaconda 2020.11 -> Packages(PyPI) -> example-package-devosmita (0.01) -> pip install exa
 
 ## Running the package
+
 ```from anomaly_devosmita import example```
+
 ```example.add_one(2)```
