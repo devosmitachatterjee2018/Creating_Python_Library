@@ -19,6 +19,14 @@
 
 ## Content of the project
 
+### \_\_init\_\_.py
+
+```
+from . import anomaly_libs as al
+from . import anomaly_models as am
+from . import anomaly_detection as ad
+```
+
 ### example.py
 
 ```
