@@ -1,4 +1,4 @@
-# Creating Python library/Packaging Python projects in Visual Studio 2022
+# Creating Python library/package in Visual Studio 2022
 
 ## Installing the latest version of pip
 - Run in Developer PowerShell.
@@ -14,6 +14,9 @@
     - **src/**
       - **anomaly_devosmita/**
         - **\_\_init\_\_.py**
+        - **libs.py**
+        - **example.py**
+        
         - **anomaly_libs.py**
         - **anomaly_data_preprocessing.py**
         - **anomaly_models.py**
@@ -26,13 +29,10 @@
 ### \_\_init\_\_.py
 Intra-Package Module Dependencies:
 ```
-from . import anomaly_libs as al
-from . import anomaly_models as am
-from . import anomaly_detection as ad
+from . import libs as l
 ```
 
 ### example.py
-
 ```
 def add_one(number):
   return(number + 1)
