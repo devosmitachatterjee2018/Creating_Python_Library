@@ -117,7 +117,9 @@ SOFTWARE.
 - Run in Developer PowerShell.
 
 ```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps anomaly_devosmita```
+
 or
+
 ```python3 -m pip install anomaly_devosmita```
 
 - Or, Go to View -> Other windows -> Python Environments -> Anaconda 2020.11 -> Packages(PyPI) -> anomaly-devosmita (0.0.1) -> Run command: pip install anomaly-devosmita
