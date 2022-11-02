@@ -14,13 +14,17 @@
     - **src/**
       - **anomaly_devosmita/**
         - **\_\_init\_\_.py**
-        - **example.py**
+        - **anomaly_libs.py**
+        - **anomaly_data_preprocessing.py**
+        - **anomaly_models.py**
+        - **anomaly_detection.py**
+        - **anomaly_main.py**
     - **tests/**
 
 ## Content of the project
 
 ### \_\_init\_\_.py
-
+Intra-Package Module Dependencies:
 ```
 from . import anomaly_libs as al
 from . import anomaly_models as am
