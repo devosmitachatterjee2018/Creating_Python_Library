@@ -16,12 +16,6 @@
         - **\_\_init\_\_.py**
         - **libs.py**
         - **example.py**
-        
-        - **anomaly_libs.py**
-        - **anomaly_data_preprocessing.py**
-        - **anomaly_models.py**
-        - **anomaly_detection.py**
-        - **anomaly_main.py**
     - **tests/**
 
 ## Content of the project
@@ -32,10 +26,17 @@ Intra-Package Module Dependencies:
 from . import libs as l
 ```
 
+### libs.py
+```
+import math
+```
+
 ### example.py
 ```
-def add_one(number):
-  return(number + 1)
+from . import libs as l
+
+def squareroot(number):
+  return(l.math.sqrt(number))
 ```
     
 ### pyproject.toml  
@@ -117,13 +118,12 @@ SOFTWARE.
 
 ```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps anomaly_devosmita```
 or
-
 ```python3 -m pip install anomaly_devosmita```
 
-- Or, Go to View -> Other windows -> Python Environments -> Add Environments -> Anaconda 2020.11 -> Packages(PyPI) -> example-package-devosmita (0.01) -> pip install exa
+- Or, Go to View -> Other windows -> Python Environments -> Anaconda 2020.11 -> Packages(PyPI) -> anomaly-devosmita (0.0.1) -> Run command: pip install anomaly-devosmita
 
 ## Running the package
 
 ```from anomaly_devosmita import example```
 
-```example.add_one(2)```
+```example.squareroot(2)```
