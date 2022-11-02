@@ -1,4 +1,4 @@
-# Creating Python library/package in Visual Studio 2022
+# Creating Python library or package in Visual Studio 2022
 
 ## Installing the latest version of pip
 - Run in Developer PowerShell.
