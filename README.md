@@ -12,7 +12,7 @@
     - **pyproject.toml**
     - **README.md**
     - **src/**
-      - **anomaly_devosmita/**
+      - **squareroot_no/**
         - **\_\_init\_\_.py**
         - **libs.py**
         - **example.py**
@@ -46,12 +46,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "anomaly_devosmita"
+name = "squareroot_no"
 version = "0.0.1"
 authors = [
   { name="Devosmita Chatterjee", email="chatterjeedevosmita267@gmail.com" },
 ]
-description = "A small example package"
+description = "An example package"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -61,8 +61,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/pypa/squareroot_no"
+"Bug Tracker" = "https://github.com/pypa/squareroot_no/issues"
 ```
 
 ### README.md
