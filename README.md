@@ -66,9 +66,7 @@ classifiers = [
 ```
 
 ### README.md
-This is an example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+This is an example package.
 
 ### LICENSE
 - A license can be chosen from https://choosealicense.com/.
@@ -126,6 +124,6 @@ or
 
 ## Running the package
 
-```from anomaly_devosmita import example```
+```from squareroot_no import example```
 
 ```example.squareroot(2)```
