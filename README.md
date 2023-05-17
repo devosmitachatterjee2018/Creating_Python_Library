@@ -46,7 +46,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "squareroot_no"
+name = "anomaly_devosmita"
 version = "0.0.1"
 authors = [
   { name="Devosmita Chatterjee", email="chatterjeedevosmita267@gmail.com" },
