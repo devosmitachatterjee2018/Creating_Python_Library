@@ -46,7 +46,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "anomaly_devosmita"
+name = "squareroot_no"
 version = "0.0.1"
 authors = [
   { name="Devosmita Chatterjee", email="chatterjeedevosmita267@gmail.com" },
@@ -109,16 +109,16 @@ SOFTWARE.
 
 ```python3 -m twine upload --repository testpypi dist/*``` or ```python3 -m twine upload dist/*```
 - Enter username and password in Developer PowerShell.
-- View the uploaded package on TestPyPI or PyPI: https://test.pypi.org/manage/projects/anomaly_devosmita or https://pypi.org/manage/projects/anomaly_devosmita.
+- View the uploaded package on TestPyPI or PyPI: https://test.pypi.org/manage/projects/squareroot_no or https://pypi.org/manage/projects/squareroot_no.
 
 ## Installing the package
 - Run in Developer PowerShell.
 
-```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps anomaly_devosmita```
+```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps squareroot_no```
 
 or
 
-```python3 -m pip install anomaly_devosmita```
+```python3 -m pip install squareroot_no```
 
 - Or, Go to View -> Other windows -> Python Environments -> Anaconda 2020.11 -> Packages(PyPI) -> anomaly-devosmita (0.0.1) -> Run command: pip install anomaly-devosmita
 
